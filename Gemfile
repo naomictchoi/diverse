@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'raphael-rails', '~> 2.1.2'
 gem 'foundation-icons-sass-rails', '~> 3.0.0'
 gem 'foundation-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

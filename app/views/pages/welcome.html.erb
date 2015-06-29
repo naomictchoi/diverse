@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+ <div class="icon-bar five-up">
+      <%= link_to "/#about", id: "/#about" do %>
+        <i class="fi-info"></i>
+        <label>About Us</label>
+        <% end %>
+
+        <%= link_to "/#services", id: "/#services" do %>
+        <i class="fi-bookmark"></i>
+        <label>Services</label>
+        <% end %>
+
+   <%= link_to "/#contact", id: "/#contact" do %>
+        <i class="fi-mail"></i>
+        <label>Contact Us</label>
+        <% end %>
+    </div>
+    
+      <div class="row full-width">
+        <div id="about">
+          <%= image_tag("logo.png", :id => "logo") %>
+          <p>INTERACT is a group a youths who believe in the power of technology. With international backgrounds and networks, we endeavour to bring the most innovative and powerful technology to Hong Kong. We believe a more effective use of technology, particularly in the media, would benefit everyone in our society. <br>
+Please feel free to say hello at (email). We look forward to talking to you!</p>
+        </div>
+        
+        <hr/>
+      </div>
+     
+     <div id="services">
+      <div class="row">
+        <div class="large-4 columns">
+          <img src="http://placehold.it/400x300&text=[img]"/>
+          <h4>INTERACTIVE FEATURES DEVELOPMENT</h4>
+          <p>We use coding to weave together multimedia elements and text, producing attractive features for online media.</p>
+        </div>
+        
+        <div class="large-4 columns">
+          <img src="http://placehold.it/400x300&text=[img]"/>
+          <h4>INFOGRAPHICS CREATION</h4>
+          <p>Do you want to use technology and graphics to convey information efficiently and effectively? Our team specializes in that.</p>
+        </div>
+        
+        <div class="large-4 columns">
+          <img src="http://placehold.it/400x300&text=[img]"/>
+          <h4>NEW MEDIA AND DIGITAL MARKETING CONSULTING</h4>
+          <p>We help customers to evaluate their needs and design solutions.</p>
+        </div>
+      
+        </div>
+        
+     <div class="row">
+        <div class="large-4 columns">
+          <img src="http://placehold.it/400x300&text=[img]"/>
+          <h4>ONLINE IDENTITY DEVELOPMENT AND MANAGEMENT</h4>
+          <ul>
+          	<li> Website Development (Front-end and Back-end)</li>
+          	<li> Social Media Development and Management</li>
+          	<li> Search Engine Optimization (SEO)</li>
+          	<li> Newsletter Design and Management</li>
+          </ul>
+        </div>
+        
+        <div class="large-4 columns">
+          <img src="http://placehold.it/400x300&text=[img]"/>
+          <h4>BRANDING AND DESIGN</h4>
+          <ul>
+          	<li> Story and Content Development</li>
+          	<li> Naming</li>
+          	<li> Logo Design</li>
+          	<li> Visual Identity Development</li>
+          	<li> Slogan and Taglines</li>
+          	<li> Brochures, Pamphlets Design and Development</li>
+          	<li> Layout Design</li>
+          	<li> Editing and Copyediting</li>
+          	<li> Translation</li>
+          </ul>
+        </div>
+        
+        <div class="large-4 columns">
+          <img src="http://placehold.it/400x300&text=[img]"/>
+          <h4>PHOTOGRAPHY AND VIDEO</h4>
+          <ul>
+          	<li> Custom Photo and Video Shoots</li>
+          	<li> Full Photo Story and Video Development</li>
+          	<li> Creative Direction</li>
+          	<li> Location Scouting</li>
+          	<li> Post Processing</li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+    <div class="row" id="contact">
+        <div class="large-12 columns">
+        
+          <div class="panel">
+            <h4>Get in touch!</h4>
+                
+            <div class="row">
+              <div class="large-9 columns">
+                <p>INTERACT is eagerly seeking passionate and talented coders, designers, writers, translators and photographers. If you are keen on using technology to solve problems in the world, please send your resume and portfolio to (email). We are waiting for you!</p>
+              </div>
+              <div class="large-3 columns">
+                <a href="#" class="radius button right">Contact Us</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+     
+       
+      
+      <footer class="row">
+        <div class="large-12 columns">
+          <hr/>
+          <div class="row">
+            <div class="large-6 columns">
+              <p>© Copyright no one at all. Go to town.</p>
+            </div>
+            <div class="large-6 columns">
+              <ul class="inline-list right">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div> 
+      </footer>
+ 
+
+<div 
+<%= yield %>
+</body>
+</html>
